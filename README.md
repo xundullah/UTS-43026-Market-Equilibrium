@@ -158,65 +158,93 @@ plt.show()
 
 ---
 
-## How to Use Google Copilot
+## Steps to Run GitHub Code in Google Colab
 
-Google Copilot (or GitHub Copilot) can assist you in writing and improving this code. Here's how you can use it:
-
-1. **Code Suggestions**:
-   - As you type, Copilot will suggest code snippets. For example, when defining the demand and supply functions, Copilot might suggest the correct formula based on the problem statement.
-
-2. **Documentation**:
-   - Copilot can help generate comments and explanations for your code. For example, it can automatically add comments to explain the equilibrium calculation or the elasticity formula.
-
-3. **Error Fixing**:
-   - If you encounter errors, Copilot can suggest fixes. For example, if you forget to import a library, Copilot will prompt you to add it.
-
-4. **Visualization**:
-   - Copilot can help you customize the plot by suggesting additional features like labels, titles, or gridlines.
+### 1. **Upload the Code to GitHub**
+   - First, ensure your code (e.g., the Jupyter Notebook `.ipynb` file) is uploaded to a GitHub repository.
+   - For example, you can create a repository called `market-equilibrium` and upload the `market_equilibrium.ipynb` file.
 
 ---
 
-## How to Run This Notebook
-
-1. **Prerequisites**:
-   - Install Python 3.x.
-   - Install Jupyter Notebook:
-     ```bash
-     pip install notebook
-     ```
-   - Install the required libraries:
-     ```bash
-     pip install numpy matplotlib scipy
-     ```
-
-2. **Run the Notebook**:
-   - Open a terminal or command prompt.
-   - Navigate to the directory where the notebook is located.
-   - Start Jupyter Notebook:
-     ```bash
-     jupyter notebook
-     ```
-   - Open the `.ipynb` file and run the cells.
+### 2. **Open Google Colab**
+   - Go to [Google Colab](https://colab.research.google.com/).
+   - Sign in with your Google account if you haven't already.
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to contribute or report issues! 😊
+### 3. **Load the Notebook from GitHub**
+   - In Google Colab, click on **File** > **Open Notebook**.
+   - Go to the **GitHub** tab.
+   - Enter the URL of your GitHub repository (e.g., `https://github.com/your-username/market-equilibrium`).
+   - Colab will list all the `.ipynb` files in the repository. Click on the one you want to open (e.g., `market_equilibrium.ipynb`).
 
 ---
 
-### Folder Structure for GitHub
-```
-market-equilibrium/
-│
-├── market_equilibrium.ipynb   # Jupyter Notebook
-├── README.md                  # Documentation (optional)
-└── LICENSE                    # License file (optional)
+### 4. **Run the Notebook**
+   - Once the notebook is open, you can run each cell by clicking the **Play** button or pressing **Shift + Enter**.
+   - If the notebook requires additional libraries (e.g., `numpy`, `matplotlib`, `scipy`), you can install them directly in Colab using `!pip install`.
+
+   For example:
+   ```python
+   !pip install numpy matplotlib scipy
+   ```
+
+---
+
+### 5. **Save a Copy to Google Drive (Optional)**
+   - If you want to save your progress or make changes, you can save a copy of the notebook to your Google Drive.
+   - Click **File** > **Save a copy in Drive**.
+
+---
+
+## Example: Running the Market Equilibrium Code in Colab
+
+Here’s how you can directly load and run the `market_equilibrium.ipynb` file from GitHub in Colab:
+
+### Step 1: Open Colab and Load the Notebook
+1. Go to [Google Colab](https://colab.research.google.com/).
+2. Click on **File** > **Open Notebook**.
+3. Go to the **GitHub** tab.
+4. Enter the URL of your GitHub repository (e.g., `https://github.com/your-username/market-equilibrium`).
+5. Select the `market_equilibrium.ipynb` file.
+
+---
+
+### Step 2: Install Required Libraries
+If the notebook requires libraries like `numpy`, `matplotlib`, or `scipy`, run the following command in a Colab cell:
+```python
+!pip install numpy matplotlib scipy
 ```
 
-You can now upload this to GitHub as a repository, and the Jupyter Notebook will serve as the interactive documentation for your project. With Copilot, you can further enhance the code and documentation! 🚀
+---
+
+### Step 3: Run the Notebook
+- Run each cell in the notebook sequentially by clicking the **Play** button or pressing **Shift + Enter**.
+- The notebook will calculate the equilibrium price and quantity, compute the price elasticity of demand, and plot the demand and supply curves.
+
+---
+
+### Step 4: Save Your Work (Optional)
+- If you make changes to the notebook, you can save it to your Google Drive by clicking **File** > **Save a copy in Drive**.
+
+---
+
+## Alternative: Directly Open a GitHub Notebook in Colab
+
+If you want to open a GitHub notebook directly in Colab without going through the Colab interface, you can use the following URL format:
+```
+https://colab.research.google.com/github/<username>/<repository>/blob/<branch>/<path-to-notebook>
+```
+
+For example:
+```
+https://colab.research.google.com/github/your-username/market-equilibrium/blob/main/market_equilibrium.ipynb
+```
+
+Just replace:
+- `your-username` with your GitHub username.
+- `market-equilibrium` with your repository name.
+- `main` with the branch name (if different).
+- `market_equilibrium.ipynb` with the path to your notebook file.
+
+---
