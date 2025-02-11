@@ -312,6 +312,6 @@ We want to:
 
 ---
 
-These problems will help strengthen your understanding of **market equilibrium, elasticity, taxation, and government intervention**. Let me know if you'd like detailed solutions! 🚀
+These problems will help strengthen your understanding of **market equilibrium, elasticity, taxation, and government intervention**. Let me know if you'd like detailed solutions! credit@Raihan 🚀
 
 ---
