@@ -247,4 +247,71 @@ Just replace:
 - `main` with the branch name (if different).
 - `market_equilibrium.ipynb` with the path to your notebook file.
 
+
+
+
+
+
+
+
+
+
+
+# Practice Problems on Market Equilibrium and Price Elasticity
+
+## Problem 1: Tax Impact on Market Equilibrium
+
+### **Problem Statement**
+Given:
+- **Demand Function**: \( Q_d = 120 - 4P \)
+- **Supply Function**: \( Q_s = 30 + 2P \)
+
+A per-unit tax of \( t = 5 \) is introduced, shifting the supply function to:
+
+\[
+Q_s = 30 + 2(P - t)
+\]
+
+We want to:
+
+1. Find the new equilibrium price and quantity after the tax.
+2. Compute the deadweight loss caused by the tax.
+3. Visualize the demand and supply curves before and after the tax, highlighting the new equilibrium and the deadweight loss.
+
+---
+
+## Problem 2: Consumer and Producer Surplus Calculation
+
+### **Problem Statement**
+Given:
+- **Demand Function**: \( Q_d = 200 - 5P \)
+- **Supply Function**: \( Q_s = 50 + 4P \)
+
+We want to:
+
+1. Determine the equilibrium price and quantity where \( Q_d = Q_s \).
+2. Compute the **consumer surplus** and **producer surplus** at equilibrium.
+3. Plot the demand and supply curves, shading the consumer and producer surplus areas.
+
+---
+
+## Problem 3: Price Floor and Its Effect on Market Outcomes
+
+### **Problem Statement**
+Given:
+- **Demand Function**: \( Q_d = 150 - 3P \)
+- **Supply Function**: \( Q_s = 40 + 2P \)
+
+A **government-imposed price floor** is set at \( P_f = 30 \), which is **above** the equilibrium price.
+
+We want to:
+
+1. Determine the **market equilibrium price and quantity** in the absence of the price floor.
+2. Analyze the **surplus or shortage** created by the price floor.
+3. Visualize the demand and supply curves, marking the price floor and the resulting **surplus or shortage**.
+
+---
+
+These problems will help strengthen your understanding of **market equilibrium, elasticity, taxation, and government intervention**. Let me know if you'd like detailed solutions! credit@Raihan 🚀
+
 ---
